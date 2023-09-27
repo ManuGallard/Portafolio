@@ -54,7 +54,7 @@ const datos = [
 	{
 		id: '1',
 		titulo: 'Aikido México',
-		texto: 'Aikido México es una escuela localizada en la Ciudad de México. Su aplicación móvil permite a los usuarios poder inscribirse así como conocer otros apartados de la escuela, como sus profesores o instalaciones',
+		texto: 'Aikido México es una escuela localizada en la Ciudad de México. Para este proyecto se pidió realizar una aplicación móvil la cual le permita a los usuarios poder inscribirse así como conocer otros apartados de la escuela, como sus profesores o historia',
 		enlace: 'https://manugallard.github.io/Portafolio/aikido.html',
 		texto_enlace: "Ver caso práctico",
 		
@@ -62,21 +62,21 @@ const datos = [
 	{
 		id: '2',
 		titulo: 'México Adopta',
-		texto: 'México Adopta es una fundación dedicada al rescate de animales. Se pidió realizar un sitio web y móvil con el fin de permitirles a las personas interesadas, ver a los animales que han sido rescatados y poder iniciar un proceso de adopcion',
+		texto: 'México Adopta es una fundación dedicada al rescate de animales. En este proyecto se pidió realizar un sitio web y móvil con el fin de permitirles a las personas interesadas, ver a los animales que han sido rescatados y poder iniciar un proceso de adopción',
 		enlace: 'https://manugallard.github.io/Portafolio/adopta.html',
 		texto_enlace: "Ver caso práctico",
 	},
 	{
 		id: '3',
 		titulo: 'Batabit',
-		texto: 'Landing page de Batabit',
+		texto: 'Landing page de Batabit, adaptada a sitios móviles, tablets y computadoras',
 		enlace: 'https://manugallard.github.io/Bata-bit/Resposive_Design_Mobile_First/index.html',
 		texto_enlace: "Ver sitio",
 	},
 	{
 		id: '4',
 		titulo: 'Blog',
-		texto: 'Sitio web cuya finalidad es la de subir blogs personales, así como proyectos realizados por el usuario. Adaptado a sitios moviles, tablets y computadoras',
+		texto: 'Sitio web cuya finalidad es la de subir blogs personales, así como proyectos realizados por el usuario. Adaptado a sitios móviles, tablets y computadoras',
 		enlace: 'https://manugallard.github.io/Blog/index.html',
 		texto_enlace: "Ver sitio",
 	},
