@@ -55,7 +55,7 @@ const datos = [
 		id: '1',
 		titulo: 'Aikido México',
 		texto: 'Aikido México es una escuela localizada en la Ciudad de México. Su aplicación móvil permite a los usuarios poder inscribirse así como conocer otros apartados de la escuela, como sus profesores o instalaciones',
-		enlace: '../aikido.html',
+		enlace: 'https://manugallard.github.io/Portafolio/aikido.html',
 		texto_enlace: "Ver caso práctico",
 		
 	},
@@ -63,7 +63,7 @@ const datos = [
 		id: '2',
 		titulo: 'México Adopta',
 		texto: 'México Adopta es una fundación dedicada al rescate de animales. Se pidió realizar un sitio web y móvil con el fin de permitirles a las personas interesadas, ver a los animales que han sido rescatados y poder iniciar un proceso de adopcion',
-		enlace: '../adopta.html',
+		enlace: 'https://manugallard.github.io/Portafolio/adopta.html',
 		texto_enlace: "Ver caso práctico",
 	},
 	{
