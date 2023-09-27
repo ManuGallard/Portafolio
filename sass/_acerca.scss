@@ -1,0 +1,25 @@
+.acerca_de_mi {
+    width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+    padding: 40px 65px;
+    display: grid;
+    border-radius: 0 0 20px 20px;
+
+    &__texto {
+        margin-top: 10px;
+        line-height: 24px;
+        color: #2D3437;
+    }
+
+    &__cv {
+        display: inline-block;
+        margin-top: 25px;
+        justify-self: center;
+        padding: 15px;
+        background-color: #e49318;
+        color: white;
+        border-radius: 25px;
+    }
+}

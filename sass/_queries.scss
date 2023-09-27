@@ -1,0 +1,174 @@
+@media (min-width: 320px) and (max-width: 750px) {
+    .header {
+        justify-content: space-between; 
+        padding: 10px;
+
+        &__menu {
+            opacity: 0;
+            visibility: hidden;
+            height: 100vh;
+            position: absolute;
+            top: 40px;
+            right: 20px;
+            flex-direction: column;
+            align-items: end;
+            gap: 50px;
+            z-index: 1;
+            background-color: #1c1c1c;
+            padding: 20px;
+            box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+            border-radius: 0 20px 0 0;
+        }
+
+        &__visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        &__position {
+            top: 0;
+            right: 0;
+            border-radius: 15px 0 0 15px;
+        }
+
+        &__link {
+            color: #ececec;
+        }
+
+        &__abrir_menu,  &__cerrar_menu{
+            display: block;
+            border: 0;
+            background-color: transparent;
+            cursor: pointer;
+
+            span {
+                font-size: 2.6rem;
+            }
+        }
+
+        &__cerrar_menu {
+            color: white;
+        }
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+
+        &__info {
+            padding: 40px 15px;
+        }
+
+        &__burbuja {
+            display: none;
+        }
+
+        &__foto {
+            padding-bottom: 25px;
+        }
+    }
+
+    .trabajos {
+
+        h2 {
+            text-align: center;
+        }
+    }
+
+    .acerca_de_mi {
+        padding: 40px 15px;
+    }
+
+    .ventana {
+        
+        &__body {
+            grid-template-columns: 1fr;
+            gap: 5px;
+        }
+
+        &__contenedor-imagen {
+            display: flex;
+            justify-content: center;
+            object-fit: contain;
+        }
+
+        &__imagen {
+            width: 85%;
+            max-width: 350px;
+        }
+
+        &__btn-cerrar {
+            right: -15px;
+            top: -35px;
+        }
+
+        &__info {
+            gap: 10px;
+        }
+
+        &__titulo {
+            text-align: center;
+        }
+
+        &__enlace {
+            align-self: center;
+        }
+    }
+
+    .overview {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 20px 20px;
+    }
+
+    .proyecto__contenedor {
+        padding: 0 20px 20px;
+    }
+
+    .pain__points {
+        padding: 0 20px 20px;
+
+        &_container {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+    }
+
+    .personas {
+        padding: 0 20px 20px;
+
+        &__container {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+    }
+
+    .conclusiones_1 {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .iteracion {
+        padding: 0 20px;
+
+        &__item {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .estilos {
+        padding: 0 20px 20px;
+
+        &--contenedor {
+            flex-wrap: nowrap;
+            flex-direction: column;
+            gap: 50px;
+            align-items: center;
+        }
+
+        &_titulo {
+            writing-mode: horizontal-tb;
+            transform: none;
+        }  
+    }
+
+}
